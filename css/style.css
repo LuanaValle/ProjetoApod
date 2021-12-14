@@ -2,14 +2,47 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: aliceblue;
+}
+html {
+    background: url("https://apod.nasa.gov/apod/image/2112/HH666_HubbleOzsarac_960.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 header {
     height: 200px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    color: aliceblue;
-    background: url("https://apod.nasa.gov/apod/image/2112/HH666_HubbleOzsarac_960.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
 }
+.form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#data, #selecionar {
+    padding: 10px;
+    font-size: 15px;
+    background-color: black;
+}
+.titulofoto {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.imagem {
+    text-align: center;
+}
+.paragrafo  {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+  
