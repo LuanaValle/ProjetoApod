@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: aliceblue;
+    background: url("https://apod.nasa.gov/apod/image/2112/HH666_HubbleOzsarac_960.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}

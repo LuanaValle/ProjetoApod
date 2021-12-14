@@ -1,0 +1,6 @@
+$(
+    "#selecionar"
+).click (function (){
+    
+}
+    )
