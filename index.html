@@ -6,19 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Apod</title>
     <link rel="stylesheet" href="../projetoApod/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Architects+Daughter&family=Audiowide&family=Comforter+Brush&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Vamos ver as estrelas?</h1>
+        <h1>Vamos ver as estrelas?</h1>        
     </header>
     <main>
         <div class="form">
-            <h2>Escolha o dia</h2>
+            <h2>Astronomy Picture of the Day - Imagem de Astronomia do Dia
+                <p>
+                A cada dia, uma imagem ou fotografia diferente do universo, desde 20 de junho de 1995.
+                </p>
+                <p>
+                E logo abaixo uma breve explicação escrita por um astrônomo profissional.
+                </p>
+            </h2>
+            <h3 id="titulobotao">Escolha o dia</h3>
             <input id="data" type="date" name="Data">
             <input id="selecionar" type="submit" value="Selecionar">
         </div>
         <div class="pagina">
-            <h2 class="titulofoto">Discover the cosmos!</h2>
+            <p class="titulofoto">Discover the cosmos!</p>
             <p class="descricaofoto"></p>
         </div>
         <div class="imagem">
@@ -28,7 +37,7 @@
 
     </main>
     <footer>
-        Copyrigth 2021 &copy;<a href="">Luana Mendes</a>.Todos os direitos reservados
+        <p class="copyright">&copy; Copyright 2021 Todos os direitos reservados  Luana Mendes</p>
     </footer>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="../projetoApod/javascript/script.js"></script>
