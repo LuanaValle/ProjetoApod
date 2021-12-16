@@ -40,7 +40,7 @@ header {
     
 }
 #data, #selecionar {
-    padding: 13px;
+    padding: 15px;
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 22px;
@@ -49,10 +49,11 @@ header {
     cursor: pointer;
     transition: .5s;
     border: 1px solid rgb(90, 38, 38);
+    border-radius: 55px;
 }
 #selecionar:hover {
     color: rgb(54, 54, 54);
-    background-color: blanchedalmond;
+    background-color: rgb(218, 221, 55);
 }
 
 .titulofoto {
